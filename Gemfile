@@ -6,6 +6,8 @@ gem 'adsf', '~> 1.2.0'
 # install kramdown -> markdown converter
 gem 'kramdown', '~> 1.3.3'
 
+gem 'systemu'
+
 gem 'bundler'
 gem 'rack'
 gem 'rack-rewrite'
