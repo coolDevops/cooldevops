@@ -1,0 +1,69 @@
+.logo-title
+{
+  display: block;
+  overflow: hidden;
+  direction: ltr;
+  text-indent: -9999px;
+  background: transparent no-repeat 0 0;
+  background-image: url(/images/BitLess-head.png);
+  background-position: center;
+  margin: 15px;
+  padding: 0;
+  height: 80px;
+}
+
+/* Menu : Center */ 
+
+.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+ 
+.center .navbar-inner {
+    text-align:center;
+}
+
+.nav a {
+  color: #9c9c9c;
+}
+
+.nav li {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+/* Container : 
+
+  - Don't use full screen
+  - Check for a few screen sizes and adjust
+*/
+
+.container {
+    max-width: 1000px
+}
+
+.container {
+    margin: 0 auto
+}
+
+@media (min-width: 598px){.container {
+        width: 598px
+    }
+}
+
+@media (min-width: 764px){.container {
+        width: 764px
+    }
+}
+
+@media (min-width: 1000px){.container {
+        width: 1000px
+    }
+}
+
