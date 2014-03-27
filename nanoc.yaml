@@ -2,7 +2,7 @@
 deploy:
   default:
     kind: rsync
-    dst: "geert@dev.bitless.be:/var/www/dev"
+    dst: "git@dev.bitless.be:/var/www/dev"
     options: ["-avz", "--group=devs", "--delete", "-e ssh"]
 
 # A list of file extensions that nanoc will consider to be textual rather than
