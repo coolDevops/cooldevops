@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"¨<!DOCTYPE HTML>
+{:	data{I"/:ET{:default{	:	lastI"¹<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <h1 class="logo-title">BitLess</h1>
+    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
     <header class="center nav navbar">
       <div class="center navbar-inner">
         <div class="container">
@@ -148,7 +148,7 @@ I"/stylesheet/;T{;{;I".logo-title
 }
 
 ;T;	@;
-@I"/team/;T{;{	;I"Ÿ<!DOCTYPE HTML>
+@I"/team/;T{;{	;I"É<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -166,7 +166,7 @@ I"/stylesheet/;T{;{;I".logo-title
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <h1 class="logo-title">BitLess</h1>
+    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
     <header class="center nav navbar">
       <div class="center navbar-inner">
         <div class="container">
@@ -182,11 +182,13 @@ I"/stylesheet/;T{;{;I".logo-title
     </header>
     <div class="container">
       <div class="span12">
-        <h1 id="glenn-plas">Glenn Plas</h1>
+        <h1 id="team">Team</h1>
+
+<h2 id="glenn-plas">Glenn Plas</h2>
 
 <p>Glenn heeft meer dan 15 jaar ervaring als system admin. Hij heeft ook als developer gewerkt op verschillende productie applicatiesâ€¦. Rest moet hij zelf maar in vullen :)</p>
 
-<h1 id="geert-theys">Geert Theys</h1>
+<h2 id="geert-theys">Geert Theys</h2>
 
 <p>Geert heeft meer dan 10 jaar ervaring als developer. Hij heeft ook voor verschillende bedrijfen het beheer van de infrastructuur gedaan.</p>
 
@@ -216,21 +218,25 @@ olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://ww
 <!-- end olark code -->
   </body>
 </html>
-;T;	I"# Glenn Plas
+;T;	I"#Team
+
+## Glenn Plas
 
 Glenn heeft meer dan 15 jaar ervaring als system admin. Hij heeft ook als developer gewerkt op verschillende productie applicaties.... Rest moet hij zelf maar in vullen :)
 
-# Geert Theys
+## Geert Theys
 
 Geert heeft meer dan 10 jaar ervaring als developer. Hij heeft ook voor verschillende bedrijfen het beheer van de infrastructuur gedaan.
 
 
 Wij zijn devops pur sang. Wij kijken niet naar 1 deel maar naar de totale oplossing. We kunnen zowel de helicopter view opvolgen als onze mouwen oprollen en in de details gaan.;T;
-I"I<h1 id="glenn-plas">Glenn Plas</h1>
+I"b<h1 id="team">Team</h1>
+
+<h2 id="glenn-plas">Glenn Plas</h2>
 
 <p>Glenn heeft meer dan 15 jaar ervaring als system admin. Hij heeft ook als developer gewerkt op verschillende productie applicatiesâ€¦. Rest moet hij zelf maar in vullen :)</p>
 
-<h1 id="geert-theys">Geert Theys</h1>
+<h2 id="geert-theys">Geert Theys</h2>
 
 <p>Geert heeft meer dan 10 jaar ervaring als developer. Hij heeft ook voor verschillende bedrijfen het beheer van de infrastructuur gedaan.</p>
 
@@ -351,7 +357,7 @@ Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br /
 Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
 SyncTrace.<br />
 Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-;T;@I"/projecten/;T{;{	;I"s<!DOCTYPE HTML>
+;T;@I"/projecten/;T{;{	;I"§<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -369,7 +375,7 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <h1 class="logo-title">BitLess</h1>
+    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
     <header class="center nav navbar">
       <div class="center navbar-inner">
         <div class="container">
@@ -385,7 +391,9 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
     </header>
     <div class="container">
       <div class="span12">
-        <h2 id="tapcrowd">Tapcrowd</h2>
+        <h1 id="projecten">Projecten</h1>
+
+<h2 id="tapcrowd">Tapcrowd</h2>
 
 <h3 id="who-do-they-do">Who do they do</h3>
 
@@ -435,7 +443,9 @@ olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://ww
 <!-- end olark code -->
   </body>
 </html>
-;T;	I"q## Tapcrowd
+;T;	I"}#Projecten
+
+## Tapcrowd
 
 ### Who do they do
 
@@ -461,7 +471,9 @@ Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres
 Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
 SyncTrace.  
 Totaaloplossingen voor buitendienst & software activiteiten;T;
-I"!<h2 id="tapcrowd">Tapcrowd</h2>
+I"D<h1 id="projecten">Projecten</h1>
+
+<h2 id="tapcrowd">Tapcrowd</h2>
 
 <h3 id="who-do-they-do">Who do they do</h3>
 
@@ -486,7 +498,7 @@ Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br /
 Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
 SyncTrace.<br />
 Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-;T;@#I"/specialisaties/;T{;{	;I"<<!DOCTYPE HTML>
+;T;@#I"/specialisaties/;T{;{	;I"z<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -504,7 +516,7 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <h1 class="logo-title">BitLess</h1>
+    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
     <header class="center nav navbar">
       <div class="center navbar-inner">
         <div class="container">
@@ -520,7 +532,9 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
     </header>
     <div class="container">
       <div class="span12">
-        <p>Wij helpen u met:</p>
+        <h1 id="specialisaties">Specialisaties</h1>
+
+<p>Wij helpen u met:</p>
 
 <ul>
   <li>Preventie: uitwerken van een roadmap om mogelijke toekomstige problemen te vermijden</li>
@@ -621,7 +635,9 @@ olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://ww
 <!-- end olark code -->
   </body>
 </html>
-;T;	I"öWij helpen u met:
+;T;	I"#Specialisaties
+
+Wij helpen u met:
 
 * Preventie: uitwerken van een roadmap om mogelijke toekomstige problemen te vermijden
 * emergencies: Onmiddelijke problemen oplossen. Hiervoor bieden wij verschillende niveaus aan.
@@ -686,7 +702,10 @@ Wij zijn experts in het opzetten van verschillende tools.
 
 * Bugtracking
 *;T;
-I"å	<p>Wij helpen u met:</p>
+I"
+<h1 id="specialisaties">Specialisaties</h1>
+
+<p>Wij helpen u met:</p>
 
 <ul>
   <li>Preventie: uitwerken van een roadmap om mogelijke toekomstige problemen te vermijden</li>
@@ -762,4 +781,78 @@ I"å	<p>Wij helpen u met:</p>
   <li>Bugtracking
 *</li>
 </ul>
-;T;@):versioni
+;T;@)I"/contact/;T{;{	;I"<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bitless - Contact</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap via CDN -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc 3.6.8">
+  </head>
+  <body>
+    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
+    <header class="center nav navbar">
+      <div class="center navbar-inner">
+        <div class="container">
+          <ul class="list-inline">
+            <li><a href="/projecten/">Projecten</a></li>
+            <li><a href="/specialisaties/">Specialisaties</a></li>
+            <li><a href="/team/">Team</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="span12">
+        <h1 id="contact">Contact</h1>
+
+<p>Most of the time we are available via the chatbox below on our site!</p>
+
+<p><img src="/images/chat-location.png" alt="chat-location" /></p>
+
+      </div>
+    </div>
+    <!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1368-560-10-2238/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+  </body>
+</html>
+;T;	I"|# Contact
+
+Most of the time we are available via the chatbox below on our site!
+
+![chat-location](/images/chat-location.png);T;
+I"¯<h1 id="contact">Contact</h1>
+
+<p>Most of the time we are available via the chatbox below on our site!</p>
+
+<p><img src="/images/chat-location.png" alt="chat-location" /></p>
+;T;@/I"/images/chat-location/;T{;{ :versioni
