@@ -44,26 +44,32 @@
   - Check for a few screen sizes and adjust
 */
 
-.container {
-    max-width: 1000px
-}
 
-.container {
-    margin: 0 auto
-}
-
-@media (min-width: 598px){.container {
-        width: 598px
+@media (min-width: @col-xs){.container {
+        width: @col-xs
     }
 }
 
-@media (min-width: 764px){.container {
-        width: 764px
+@media (min-width: @col-sm){.container {
+        width: @col-sm
     }
 }
 
-@media (min-width: 1000px){.container {
-        width: 1000px
+@media (min-width: @col-md){.container {
+        width: @col-md
     }
+}
+
+/* Make a 2 column page with a gap in between */
+
+.wrapper {
+  .make-row();
+}
+.content-main {
+  .make-lg-column(8);
+}
+.content-secondary {
+  .make-lg-column(3);
+  .make-lg-column-offset(1);
 }
 
