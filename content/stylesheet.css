@@ -1,3 +1,20 @@
+/* First set the navbar */
+
+.navbar ul {
+  float: right;
+  margin: 0 0 0 0;
+}
+
+
+.nav li {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2em;
+  text-transform: uppercase;
+  margin: 14px 0 0 0;
+}
+
+/* Now tweak our css logo */
 .brand {
   float: left;
   font-size: 30px;
@@ -14,18 +31,9 @@
   color: #838B8B;  
 }
 
-
-.navbar ul {
-  float: right;
-  margin: 0 0 0 0;
-}
-
-
-.nav li {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 2em;
-  text-transform: uppercase;
+/* Override the bootstrap hover class */
+a.brand:hover {
+  text-decoration: none;
 }
 
 /* Big cover image on the home page */
@@ -44,8 +52,6 @@
 .container {
     max-width: 1000px;
 }
-
-
 
 @media (min-width: 598px){.container {
         width: 598px
