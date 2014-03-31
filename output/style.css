@@ -2,25 +2,24 @@
   float: left;
   font-size: 30px;
   font-weight: normal; 
-  margin: 61px 0 25px 0;
+  margin: 0 0 0 0;
 }
 
 .brand b {
   font-weight: normal;
+  color: #9c9c9c;
 }
 
 .brand a {
   color: #838B8B;  
 }
 
+
 .navbar ul {
   float: right;
-   margin: 75px 0 25px 0;
+  margin: 0 0 0 0;
 }
 
-.nav a {
-  color: #9c9c9c;
-}
 
 .nav li {
   font-size: 14px;
@@ -29,6 +28,12 @@
   text-transform: uppercase;
 }
 
+/* Big cover image on the home page */
+.site-head {
+  background-color: #2B2B2B;
+  background-size: cover;
+  height: 300px;
+}
 
 /* Container : 
 
@@ -37,12 +42,10 @@
 */
 
 .container {
-    max-width: 1000px
+    max-width: 1000px;
 }
 
-.container {
-    margin: 0 auto
-}
+
 
 @media (min-width: 598px){.container {
         width: 598px

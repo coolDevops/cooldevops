@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"u  <!DOCTYPE HTML>
+{:	data{I"/:ET{:default{	:	lastI"Ø  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -16,8 +16,8 @@
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-     <div class="container">
       <div class="nav navbar">
+        <div class="container">
         <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
@@ -25,10 +25,11 @@
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
 
+<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
 
     <div class="container">
       <div class="span12">
@@ -78,29 +79,28 @@ We nodigen u uit om op even te bekijken welke onze [specialisiaties](/specialisa
 
 <p>We nodigen u uit om op even te bekijken welke onze <a href="/specialisaties">specialisiaties</a> zijn. Zo zal u zien dat we een zeer diverse waaier aan kennis hebben om u van dienst te zijn.</p>
 ;T:	post@
-I"/stylesheet/;T{;{;I"Õ.brand {
+I"/stylesheet/;T{;{;I".brand {
   float: left;
   font-size: 30px;
   font-weight: normal; 
-  margin: 61px 0 25px 0;
+  margin: 0 0 0 0;
 }
 
 .brand b {
   font-weight: normal;
+  color: #9c9c9c;
 }
 
 .brand a {
   color: #838B8B;  
 }
 
+
 .navbar ul {
   float: right;
-   margin: 75px 0 25px 0;
+  margin: 0 0 0 0;
 }
 
-.nav a {
-  color: #9c9c9c;
-}
 
 .nav li {
   font-size: 14px;
@@ -109,6 +109,12 @@ I"/stylesheet/;T{;{;I"Õ.brand {
   text-transform: uppercase;
 }
 
+/* Big cover image on the home page */
+.site-head {
+  background-color: #2B2B2B;
+  background-size: cover;
+  height: 300px;
+}
 
 /* Container : 
 
@@ -117,12 +123,10 @@ I"/stylesheet/;T{;{;I"Õ.brand {
 */
 
 .container {
-    max-width: 1000px
+    max-width: 1000px;
 }
 
-.container {
-    margin: 0 auto
-}
+
 
 @media (min-width: 598px){.container {
         width: 598px
@@ -140,7 +144,7 @@ I"/stylesheet/;T{;{;I"Õ.brand {
 }
 
 ;T;	@;
-@I"/team/;T{;{	;I"…  <!DOCTYPE HTML>
+@I"/team/;T{;{	;I"è  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -158,8 +162,8 @@ I"/stylesheet/;T{;{;I"Õ.brand {
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-     <div class="container">
       <div class="nav navbar">
+        <div class="container">
         <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
@@ -167,10 +171,11 @@ I"/stylesheet/;T{;{;I"Õ.brand {
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
 
+<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
 
     <div class="container">
       <div class="span12">
@@ -233,7 +238,7 @@ I"b<h1 id="team">Team</h1>
 <p>Geert heeft meer dan 10 jaar ervaring als developer. Hij heeft ook voor verschillende bedrijfen het beheer van de infrastructuur gedaan.</p>
 
 <p>Wij zijn devops pur sang. Wij kijken niet naar 1 deel maar naar de totale oplossing. We kunnen zowel de helicopter view opvolgen als onze mouwen oprollen en in de details gaan.</p>
-;T;@I"/images/BitLess-head/;T{;{ I"/klanten/;T{;{	;I">  <!DOCTYPE HTML>
+;T;@I"/images/BitLess-head/;T{;{ I"/klanten/;T{;{	;I"¡  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -251,8 +256,8 @@ I"b<h1 id="team">Team</h1>
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-     <div class="container">
       <div class="nav navbar">
+        <div class="container">
         <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
@@ -260,10 +265,11 @@ I"b<h1 id="team">Team</h1>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
 
+<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
 
     <div class="container">
       <div class="span12">
@@ -368,7 +374,7 @@ Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br /
 Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
 SyncTrace.<br />
 Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-;T;@I"/projecten/;T{;{	;I"  <!DOCTYPE HTML>
+;T;@I"/projecten/;T{;{	;I"r  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -386,8 +392,8 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-     <div class="container">
       <div class="nav navbar">
+        <div class="container">
         <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
@@ -395,10 +401,11 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
 
+<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
 
     <div class="container">
       <div class="span12">
@@ -527,7 +534,7 @@ Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br /
 Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
 SyncTrace.<br />
 Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-;T;@#I"/specialisaties/;T{;{	;I"6  <!DOCTYPE HTML>
+;T;@#I"/specialisaties/;T{;{	;I"™  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -545,8 +552,8 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-     <div class="container">
       <div class="nav navbar">
+        <div class="container">
         <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
@@ -554,10 +561,11 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
 
+<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
 
     <div class="container">
       <div class="span12">
@@ -810,7 +818,7 @@ I"
   <li>Bugtracking
 *</li>
 </ul>
-;T;@)I"/contact/;T{;{	;I"Ì  <!DOCTYPE HTML>
+;T;@)I"/contact/;T{;{	;I"/  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -828,8 +836,8 @@ I"
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-     <div class="container">
       <div class="nav navbar">
+        <div class="container">
         <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
@@ -837,10 +845,11 @@ I"
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
 
+<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
 
     <div class="container">
       <div class="span12">
@@ -884,4 +893,4 @@ I"¯<h1 id="contact">Contact</h1>
 <p>Most of the time we are available via the chatbox below on our site!</p>
 
 <p><img src="/images/chat-location.png" alt="chat-location" /></p>
-;T;@/I"/images/chat-location/;T{;{ I"/images/syntrace/;T{;{ I"/images/tapcrowd/;T{;{ I"/images/oxynade/;T{;{ :versioni
+;T;@/I"/images/chat-location/;T{;{ I"/images/syntrace/;T{;{ I"/images/tapcrowd/;T{;{ I"/images/oxynade/;T{;{ I"/images/77H/;T{;{ I"/images/full_stack/;T{;{ :versioni
