@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"π<!DOCTYPE HTML>
+{:	data{I"/:ET{:default{	:	lastI"u  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -16,20 +16,20 @@
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
-    <header class="center nav navbar">
-      <div class="center navbar-inner">
-        <div class="container">
+     <div class="container">
+      <div class="nav navbar">
+        <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
             <li><a href="/specialisaties/">Specialisaties</a></li>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
+        </ul>
       </div>
-    </header>
+    </div>
+
+
     <div class="container">
       <div class="span12">
         <h1 id="bitless-system-admins-as-a-service">Bitless: System Admins As A Service</h1>
@@ -78,33 +78,24 @@ We nodigen u uit om op even te bekijken welke onze [specialisiaties](/specialisa
 
 <p>We nodigen u uit om op even te bekijken welke onze <a href="/specialisaties">specialisiaties</a> zijn. Zo zal u zien dat we een zeer diverse waaier aan kennis hebben om u van dienst te zijn.</p>
 ;T:	post@
-I"/stylesheet/;T{;{;I"ê.logo-title
-{
-  display: block;
-  overflow: hidden;
-  direction: ltr;
-  text-indent: -9999px;
-  background: transparent no-repeat 0 0;
-  background-image: url(/images/BitLess-head.png);
-  background-position: center;
-  margin: 15px;
-  padding: 0;
-  height: 80px;
+I"/stylesheet/;T{;{;I"’.brand {
+  float: left;
+  font-size: 30px;
+  font-weight: normal; 
+  margin: 61px 0 25px 0;
 }
 
-/* Menu : Center */ 
-
-.center.navbar .nav,
-.center.navbar .nav > li {
-    float:none;
-    display:inline-block;
-    *display:inline; /* ie7 fix */
-    *zoom:1; /* hasLayout ie7 trigger */
-    vertical-align: top;
+.brand b {
+  font-weight: normal;
 }
- 
-.center .navbar-inner {
-    text-align:center;
+
+.brand a {
+  color: #838B8B;  
+}
+
+.navbar ul {
+  float: right;
+   margin: 75px 0 25px 0;
 }
 
 .nav a {
@@ -118,43 +109,38 @@ I"/stylesheet/;T{;{;I"ê.logo-title
   text-transform: uppercase;
 }
 
+
 /* Container : 
 
   - Don't use full screen
   - Check for a few screen sizes and adjust
 */
 
+.container {
+    max-width: 1000px
+}
 
-@media (min-width: @col-xs){.container {
-        width: @col-xs
+.container {
+    margin: 0 auto
+}
+
+@media (min-width: 598px){.container {
+        width: 598px
     }
 }
 
-@media (min-width: @col-sm){.container {
-        width: @col-sm
+@media (min-width: 764px){.container {
+        width: 764px
     }
 }
 
-@media (min-width: @col-md){.container {
-        width: @col-md
+@media (min-width: px){.container {
+        width: 1000px
     }
-}
-
-/* Make a 2 column page with a gap in between */
-
-.wrapper {
-  .make-row();
-}
-.content-main {
-  .make-lg-column(8);
-}
-.content-secondary {
-  .make-lg-column(3);
-  .make-lg-column-offset(1);
 }
 
 ;T;	@;
-@I"/team/;T{;{	;I"…<!DOCTYPE HTML>
+@I"/team/;T{;{	;I"Ö  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -172,20 +158,20 @@ I"/stylesheet/;T{;{;I"ê.logo-title
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
-    <header class="center nav navbar">
-      <div class="center navbar-inner">
-        <div class="container">
+     <div class="container">
+      <div class="nav navbar">
+        <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
             <li><a href="/specialisaties/">Specialisaties</a></li>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
+        </ul>
       </div>
-    </header>
+    </div>
+
+
     <div class="container">
       <div class="span12">
         <h1 id="team">Team</h1>
@@ -247,7 +233,7 @@ I"b<h1 id="team">Team</h1>
 <p>Geert heeft meer dan 10 jaar ervaring als developer. Hij heeft ook voor verschillende bedrijfen het beheer van de infrastructuur gedaan.</p>
 
 <p>Wij zijn devops pur sang. Wij kijken niet naar 1 deel maar naar de totale oplossing. We kunnen zowel de helicopter view opvolgen als onze mouwen oprollen en in de details gaan.</p>
-;T;@I"/images/BitLess-head/;T{;{ I"/klanten/;T{;{	;I"Ç<!DOCTYPE HTML>
+;T;@I"/images/BitLess-head/;T{;{ I"/klanten/;T{;{	;I">  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -265,20 +251,20 @@ I"b<h1 id="team">Team</h1>
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
-    <header class="center nav navbar">
-      <div class="center navbar-inner">
-        <div class="container">
+     <div class="container">
+      <div class="nav navbar">
+        <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
             <li><a href="/specialisaties/">Specialisaties</a></li>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
+        </ul>
       </div>
-    </header>
+    </div>
+
+
     <div class="container">
       <div class="span12">
         <h2 id="tapcrowd">Tapcrowd</h2>
@@ -382,7 +368,7 @@ Voor Inspiratie en  innoverende idee√´n bent u bij ons aan het juiste adres<br /
 Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
 SyncTrace.<br />
 Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-;T;@I"/projecten/;T{;{	;I"S<!DOCTYPE HTML>
+;T;@I"/projecten/;T{;{	;I"  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -400,20 +386,20 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
-    <header class="center nav navbar">
-      <div class="center navbar-inner">
-        <div class="container">
+     <div class="container">
+      <div class="nav navbar">
+        <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
             <li><a href="/specialisaties/">Specialisaties</a></li>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
+        </ul>
       </div>
-    </header>
+    </div>
+
+
     <div class="container">
       <div class="span12">
         <h1 id="projecten">Projecten</h1>
@@ -541,7 +527,7 @@ Voor Inspiratie en  innoverende idee√´n bent u bij ons aan het juiste adres<br /
 Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
 SyncTrace.<br />
 Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-;T;@#I"/specialisaties/;T{;{	;I"z<!DOCTYPE HTML>
+;T;@#I"/specialisaties/;T{;{	;I"6  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -559,20 +545,20 @@ Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
-    <header class="center nav navbar">
-      <div class="center navbar-inner">
-        <div class="container">
+     <div class="container">
+      <div class="nav navbar">
+        <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
             <li><a href="/specialisaties/">Specialisaties</a></li>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
+        </ul>
       </div>
-    </header>
+    </div>
+
+
     <div class="container">
       <div class="span12">
         <h1 id="specialisaties">Specialisaties</h1>
@@ -824,7 +810,7 @@ I"
   <li>Bugtracking
 *</li>
 </ul>
-;T;@)I"/contact/;T{;{	;I"<!DOCTYPE HTML>
+;T;@)I"/contact/;T{;{	;I"Ã  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -842,20 +828,20 @@ I"
     <meta name="generator" content="nanoc 3.6.8">
   </head>
   <body>
-    <a href ="/"><h1 class="logo-title">BitLess</h1></a>
-    <header class="center nav navbar">
-      <div class="center navbar-inner">
-        <div class="container">
+     <div class="container">
+      <div class="nav navbar">
+        <a class="brand" href="#">cool<b>DEVOPS</b></a>
           <ul class="list-inline">
             <li><a href="/projecten/">Projecten</a></li>
             <li><a href="/specialisaties/">Specialisaties</a></li>
             <li><a href="/team/">Team</a></li>
             <li><a href="/contact/">Contact</a></li>
             <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
+        </ul>
       </div>
-    </header>
+    </div>
+
+
     <div class="container">
       <div class="span12">
         <h1 id="contact">Contact</h1>
