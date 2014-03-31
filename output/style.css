@@ -1,3 +1,7 @@
+html {
+  font: 62.5%/1.65 "Open Sans",sans-serif;
+}
+
 /* First set the navbar */
 
 .navbar ul {
@@ -66,5 +70,71 @@ a.brand:hover {
 @media (min-width: px){.container {
         width: 1000px
     }
+}
+
+h1 {
+margin: 0;
+font-weight: bold;
+font-size: 34px;
+font-weight: 400;
+color: #444;
+}
+
+h2 {
+margin: 0;
+font-weight: bold;
+font-size: 24px;
+color: #444;
+}
+
+/* Footer */
+
+.site-footer {
+position: relative;
+margin: 8rem 0 0 0;
+padding: 4rem 0;
+border-top: #EBF2F6 1px solid;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.3rem;
+line-height: 1.7em;
+color: #BBC7CC;
+text-align: center;
+background: #F7FAFB;
+}
+
+.site-footer {
+    position: relative;
+    margin: 8rem 0 0 0;
+    padding: 4rem 0;
+    border-top: #EBF2F6 1px solid;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.7em;
+    color: #BBC7CC;
+    text-align: center;
+    background: #F7FAFB;
+}
+
+.site-footer a {
+    color: #BBC7CC;
+    text-decoration: underline;
+}
+
+.site-footer a:hover {
+    color: #50585D;
+}
+
+.poweredby .icon-ghost {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.poweredby .icon-ghost:hover {
+    text-decoration: none;
+}
+
+.poweredby .icon-ghost:before {
+    font-size: 1rem;
+    margin-right: 0.2em;
 }
 
