@@ -1,85 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"Ø  <!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Bitless - System Admins As A Service</title>
-    <link rel="stylesheet" href="/style.css">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- bootstrap via CDN -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc 3.6.8">
-  </head>
-  <body>
-      <div class="nav navbar">
-        <div class="container">
-        <a class="brand" href="#">cool<b>DEVOPS</b></a>
-          <ul class="list-inline">
-            <li><a href="/projecten/">Projecten</a></li>
-            <li><a href="/specialisaties/">Specialisaties</a></li>
-            <li><a href="/team/">Team</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
-      </div>
-
-<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
-
-    <div class="container">
-      <div class="span12">
-        <h1 id="bitless-system-admins-as-a-service">Bitless: System Admins As A Service</h1>
-
-<p>Bitless werkt met on demand system admins. Voor onze managed infrastructuur support moet u op voorhand geen geld uitgeven.</p>
-
-<p>In ruil heeft u geld vrij om via Bitless te werken aan het verbeteren van uw infrastructuur wanneer anderen enkel standby staan tot er een probleem op duikt.</p>
-
-<p>We nodigen u uit om op even te bekijken welke onze <a href="/specialisaties">specialisiaties</a> zijn. Zo zal u zien dat we een zeer diverse waaier aan kennis hebben om u van dienst te zijn.</p>
-
-      </div>
-    </div>
-    <!-- begin olark code -->
-<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-f[z]=function(){
-(a.s=a.s||[]).push(arguments)};var a=f[z]._={
-},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-0:+new Date};a.P=function(u){
-a.p[u]=new Date-a.p[0]};function s(){
-a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-b.contentWindow[g].open()}catch(w){
-c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
-/* custom configuration goes here (www.olark.com/documentation) */
-olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1368-560-10-2238/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
-<!-- end olark code -->
-  </body>
-</html>
-;T:rawI"õ# Bitless: System Admins As A Service
-
-Bitless werkt met on demand system admins. Voor onze managed infrastructuur support moet u op voorhand geen geld uitgeven.
-
-In ruil heeft u geld vrij om via Bitless te werken aan het verbeteren van uw infrastructuur wanneer anderen enkel standby staan tot er een probleem op duikt.
-
-We nodigen u uit om op even te bekijken welke onze [specialisiaties](/specialisaties) zijn. Zo zal u zien dat we een zeer diverse waaier aan kennis hebben om u van dienst te zijn.;T:preI"E<h1 id="bitless-system-admins-as-a-service">Bitless: System Admins As A Service</h1>
-
-<p>Bitless werkt met on demand system admins. Voor onze managed infrastructuur support moet u op voorhand geen geld uitgeven.</p>
-
-<p>In ruil heeft u geld vrij om via Bitless te werken aan het verbeteren van uw infrastructuur wanneer anderen enkel standby staan tot er een probleem op duikt.</p>
-
-<p>We nodigen u uit om op even te bekijken welke onze <a href="/specialisaties">specialisiaties</a> zijn. Zo zal u zien dat we een zeer diverse waaier aan kennis hebben om u van dienst te zijn.</p>
-;T:	post@
-I"/stylesheet/;T{;{;I".brand {
+{:	data{I"/stylesheet/:ET{:default{:	lastI".brand {
   float: left;
   font-size: 30px;
   font-weight: normal; 
@@ -143,8 +62,9 @@ I"/stylesheet/;T{;{;I".brand {
     }
 }
 
-;T;	@;
-@I"/team/;T{;{	;I"è  <!DOCTYPE HTML>
+;T:raw@
+:pre@
+I"/team/;T{;{	;I"è  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -238,11 +158,11 @@ I"b<h1 id="team">Team</h1>
 <p>Geert heeft meer dan 10 jaar ervaring als developer. Hij heeft ook voor verschillende bedrijfen het beheer van de infrastructuur gedaan.</p>
 
 <p>Wij zijn devops pur sang. Wij kijken niet naar 1 deel maar naar de totale oplossing. We kunnen zowel de helicopter view opvolgen als onze mouwen oprollen en in de details gaan.</p>
-;T;@I"/images/BitLess-head/;T{;{ I"/klanten/;T{;{	;I"¡  <!DOCTYPE HTML>
+;T:	post@I"/contact/;T{;{	;I"/  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitless - Klanten</title>
+    <title>Bitless - Contact</title>
     <link rel="stylesheet" href="/style.css">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -273,31 +193,11 @@ I"b<h1 id="team">Team</h1>
 
     <div class="container">
       <div class="span12">
-        <h2 id="tapcrowd">Tapcrowd</h2>
+        <h1 id="contact">Contact</h1>
 
-<h3 id="who-do-they-do">Who do they do</h3>
+<p>Most of the time we are available via the chatbox below on our site!</p>
 
-<p>Vertalen?</p>
-
-<p>Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.</p>
-
-<h3 id="what-did-we-do-for-them">What did we do for them?</h3>
-
-<p>Glenneke dit is voor uâ€¦</p>
-
-<h2 id="oxynade">Oxynade</h2>
-
-<p>Vertalen?</p>
-
-<p>Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.</p>
-
-<h2 id="syntrace">Syntrace</h2>
-
-<p>Op zoek naar inspirerende Track &amp; Trace oplossingen 
-Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br />
-Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
-SyncTrace.<br />
-Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
+<p><img src="/images/chat-location.png" alt="chat-location" /></p>
 
       </div>
     </div>
@@ -323,218 +223,17 @@ olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://ww
 <!-- end olark code -->
   </body>
 </html>
-;T;	I"q## Tapcrowd
+;T;	I"|# Contact
 
-### Who do they do
+Most of the time we are available via the chatbox below on our site!
 
-Vertalen?
+![chat-location](/images/chat-location.png);T;
+I"¯<h1 id="contact">Contact</h1>
 
+<p>Most of the time we are available via the chatbox below on our site!</p>
 
-Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.
-
-### What did we do for them?
-
-Glenneke dit is voor u...
-
-## Oxynade
-
-Vertalen?
-
-Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.
-
-## Syntrace
-
-Op zoek naar inspirerende Track & Trace oplossingen 
-Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres  
-Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
-SyncTrace.  
-Totaaloplossingen voor buitendienst & software activiteiten;T;
-I"!<h2 id="tapcrowd">Tapcrowd</h2>
-
-<h3 id="who-do-they-do">Who do they do</h3>
-
-<p>Vertalen?</p>
-
-<p>Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.</p>
-
-<h3 id="what-did-we-do-for-them">What did we do for them?</h3>
-
-<p>Glenneke dit is voor uâ€¦</p>
-
-<h2 id="oxynade">Oxynade</h2>
-
-<p>Vertalen?</p>
-
-<p>Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.</p>
-
-<h2 id="syntrace">Syntrace</h2>
-
-<p>Op zoek naar inspirerende Track &amp; Trace oplossingen 
-Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br />
-Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
-SyncTrace.<br />
-Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-;T;@I"/projecten/;T{;{	;I"r  <!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Bitless - Projecten</title>
-    <link rel="stylesheet" href="/style.css">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- bootstrap via CDN -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc 3.6.8">
-  </head>
-  <body>
-      <div class="nav navbar">
-        <div class="container">
-        <a class="brand" href="#">cool<b>DEVOPS</b></a>
-          <ul class="list-inline">
-            <li><a href="/projecten/">Projecten</a></li>
-            <li><a href="/specialisaties/">Specialisaties</a></li>
-            <li><a href="/team/">Team</a></li>
-            <li><a href="/contact/">Contact</a></li>
-            <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
-      </div>
-
-<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
-
-    <div class="container">
-      <div class="span12">
-        <h1 id="projecten">Projecten</h1>
-
-<h2 id="tapcrowd">Tapcrowd</h2>
-
-<p><img src="/images/tapcrowd.png" alt="TapCrowd" /></p>
-
-<h3 id="who-do-they-do">Who do they do</h3>
-
-<p>Vertalen?</p>
-
-<p>Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.</p>
-
-<h3 id="what-did-we-do-for-them">What did we do for them?</h3>
-
-<p>Glenneke dit is voor uâ€¦</p>
-
-<h2 id="oxynade">Oxynade</h2>
-
-<p><img src="/images/oxynade.png" alt="Oxynade" /></p>
-
-<p>Vertalen?</p>
-
-<p>Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.</p>
-
-<h2 id="syntrace">Syntrace</h2>
-
-<p><img src="/images/syntrace.png" alt="SynTrace" /></p>
-
-<p>Op zoek naar inspirerende Track &amp; Trace oplossingen 
-Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br />
-Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
-SyncTrace.<br />
-Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-
-      </div>
-    </div>
-    <!-- begin olark code -->
-<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-f[z]=function(){
-(a.s=a.s||[]).push(arguments)};var a=f[z]._={
-},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-0:+new Date};a.P=function(u){
-a.p[u]=new Date-a.p[0]};function s(){
-a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-b.contentWindow[g].open()}catch(w){
-c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
-/* custom configuration goes here (www.olark.com/documentation) */
-olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1368-560-10-2238/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
-<!-- end olark code -->
-  </body>
-</html>
-;T;	I"ä#Projecten
-
-## Tapcrowd
-
-![TapCrowd](/images/tapcrowd.png)
-
-### Who do they do
-
-Vertalen?
-
-
-Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.
-
-### What did we do for them?
-
-Glenneke dit is voor u...
-
-## Oxynade
-
-![Oxynade](/images/oxynade.png)
-
-Vertalen?
-
-Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.
-
-## Syntrace
-
-![SynTrace](/images/syntrace.png)
-
-Op zoek naar inspirerende Track & Trace oplossingen 
-Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres  
-Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
-SyncTrace.  
-Totaaloplossingen voor buitendienst & software activiteiten;T;
-I"ð<h1 id="projecten">Projecten</h1>
-
-<h2 id="tapcrowd">Tapcrowd</h2>
-
-<p><img src="/images/tapcrowd.png" alt="TapCrowd" /></p>
-
-<h3 id="who-do-they-do">Who do they do</h3>
-
-<p>Vertalen?</p>
-
-<p>Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.</p>
-
-<h3 id="what-did-we-do-for-them">What did we do for them?</h3>
-
-<p>Glenneke dit is voor uâ€¦</p>
-
-<h2 id="oxynade">Oxynade</h2>
-
-<p><img src="/images/oxynade.png" alt="Oxynade" /></p>
-
-<p>Vertalen?</p>
-
-<p>Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.</p>
-
-<h2 id="syntrace">Syntrace</h2>
-
-<p><img src="/images/syntrace.png" alt="SynTrace" /></p>
-
-<p>Op zoek naar inspirerende Track &amp; Trace oplossingen 
-Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br />
-Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
-SyncTrace.<br />
-Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
-;T;@#I"/specialisaties/;T{;{	;I"™  <!DOCTYPE HTML>
+<p><img src="/images/chat-location.png" alt="chat-location" /></p>
+;T;@I"/specialisaties/;T{;{	;I"™  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -818,11 +517,11 @@ I"
   <li>Bugtracking
 *</li>
 </ul>
-;T;@)I"/contact/;T{;{	;I"/  <!DOCTYPE HTML>
+;T;@I"/klanten/;T{;{	;I"¡  <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bitless - Contact</title>
+    <title>Bitless - Klanten</title>
     <link rel="stylesheet" href="/style.css">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -853,11 +552,31 @@ I"
 
     <div class="container">
       <div class="span12">
-        <h1 id="contact">Contact</h1>
+        <h2 id="tapcrowd">Tapcrowd</h2>
 
-<p>Most of the time we are available via the chatbox below on our site!</p>
+<h3 id="who-do-they-do">Who do they do</h3>
 
-<p><img src="/images/chat-location.png" alt="chat-location" /></p>
+<p>Vertalen?</p>
+
+<p>Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.</p>
+
+<h3 id="what-did-we-do-for-them">What did we do for them?</h3>
+
+<p>Glenneke dit is voor uâ€¦</p>
+
+<h2 id="oxynade">Oxynade</h2>
+
+<p>Vertalen?</p>
+
+<p>Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.</p>
+
+<h2 id="syntrace">Syntrace</h2>
+
+<p>Op zoek naar inspirerende Track &amp; Trace oplossingen 
+Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br />
+Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
+SyncTrace.<br />
+Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
 
       </div>
     </div>
@@ -883,14 +602,324 @@ olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://ww
 <!-- end olark code -->
   </body>
 </html>
-;T;	I"|# Contact
+;T;	I"q## Tapcrowd
 
-Most of the time we are available via the chatbox below on our site!
+### Who do they do
 
-![chat-location](/images/chat-location.png);T;
-I"¯<h1 id="contact">Contact</h1>
+Vertalen?
 
-<p>Most of the time we are available via the chatbox below on our site!</p>
 
-<p><img src="/images/chat-location.png" alt="chat-location" /></p>
-;T;@/I"/images/chat-location/;T{;{ I"/images/syntrace/;T{;{ I"/images/tapcrowd/;T{;{ I"/images/oxynade/;T{;{ I"/images/77H/;T{;{ I"/images/full_stack/;T{;{ :versioni
+Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.
+
+### What did we do for them?
+
+Glenneke dit is voor u...
+
+## Oxynade
+
+Vertalen?
+
+Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.
+
+## Syntrace
+
+Op zoek naar inspirerende Track & Trace oplossingen 
+Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres  
+Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
+SyncTrace.  
+Totaaloplossingen voor buitendienst & software activiteiten;T;
+I"!<h2 id="tapcrowd">Tapcrowd</h2>
+
+<h3 id="who-do-they-do">Who do they do</h3>
+
+<p>Vertalen?</p>
+
+<p>Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.</p>
+
+<h3 id="what-did-we-do-for-them">What did we do for them?</h3>
+
+<p>Glenneke dit is voor uâ€¦</p>
+
+<h2 id="oxynade">Oxynade</h2>
+
+<p>Vertalen?</p>
+
+<p>Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.</p>
+
+<h2 id="syntrace">Syntrace</h2>
+
+<p>Op zoek naar inspirerende Track &amp; Trace oplossingen 
+Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br />
+Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
+SyncTrace.<br />
+Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
+;T;@ I"/;T{;{	;I"Ø  <!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bitless - System Admins As A Service</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap via CDN -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc 3.6.8">
+  </head>
+  <body>
+      <div class="nav navbar">
+        <div class="container">
+        <a class="brand" href="#">cool<b>DEVOPS</b></a>
+          <ul class="list-inline">
+            <li><a href="/projecten/">Projecten</a></li>
+            <li><a href="/specialisaties/">Specialisaties</a></li>
+            <li><a href="/team/">Team</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
+
+    <div class="container">
+      <div class="span12">
+        <h1 id="bitless-system-admins-as-a-service">Bitless: System Admins As A Service</h1>
+
+<p>Bitless werkt met on demand system admins. Voor onze managed infrastructuur support moet u op voorhand geen geld uitgeven.</p>
+
+<p>In ruil heeft u geld vrij om via Bitless te werken aan het verbeteren van uw infrastructuur wanneer anderen enkel standby staan tot er een probleem op duikt.</p>
+
+<p>We nodigen u uit om op even te bekijken welke onze <a href="/specialisaties">specialisiaties</a> zijn. Zo zal u zien dat we een zeer diverse waaier aan kennis hebben om u van dienst te zijn.</p>
+
+      </div>
+    </div>
+    <!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1368-560-10-2238/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+  </body>
+</html>
+;T;	I"õ# Bitless: System Admins As A Service
+
+Bitless werkt met on demand system admins. Voor onze managed infrastructuur support moet u op voorhand geen geld uitgeven.
+
+In ruil heeft u geld vrij om via Bitless te werken aan het verbeteren van uw infrastructuur wanneer anderen enkel standby staan tot er een probleem op duikt.
+
+We nodigen u uit om op even te bekijken welke onze [specialisiaties](/specialisaties) zijn. Zo zal u zien dat we een zeer diverse waaier aan kennis hebben om u van dienst te zijn.;T;
+I"E<h1 id="bitless-system-admins-as-a-service">Bitless: System Admins As A Service</h1>
+
+<p>Bitless werkt met on demand system admins. Voor onze managed infrastructuur support moet u op voorhand geen geld uitgeven.</p>
+
+<p>In ruil heeft u geld vrij om via Bitless te werken aan het verbeteren van uw infrastructuur wanneer anderen enkel standby staan tot er een probleem op duikt.</p>
+
+<p>We nodigen u uit om op even te bekijken welke onze <a href="/specialisaties">specialisiaties</a> zijn. Zo zal u zien dat we een zeer diverse waaier aan kennis hebben om u van dienst te zijn.</p>
+;T;@&I"/images/oxynade/;T{;{ I"/images/full_stack/;T{;{ I"/images/chat-location/;T{;{ I"/images/syntrace/;T{;{ I"/images/BitLess-head/;T{;{ I"/images/77H/;T{;{ I"/images/tapcrowd/;T{;{ I"/projecten/;T{;{	;I"P  <!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bitless - Projecten</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap via CDN -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc 3.6.8">
+  </head>
+  <body>
+      <div class="nav navbar">
+        <div class="container">
+        <a class="brand" href="#">cool<b>DEVOPS</b></a>
+          <ul class="list-inline">
+            <li><a href="/projecten/">Projecten</a></li>
+            <li><a href="/specialisaties/">Specialisaties</a></li>
+            <li><a href="/team/">Team</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+<header class="site-head" style="background-image: url(/images/full_stack.png)"></header>
+
+    <div class="container">
+      <div class="span12">
+        <h1 id="projecten">Projecten</h1>
+
+<h2 id="arcelormittal">Arcelormittal</h2>
+
+<p><img src="/images/arcelormittal.jpg" alt="ArcelorMittal" /></p>
+
+<p>On the Arcelor mittal project we acted as a technical lead and core architect, designer, and implementation force.  We still provide them continued supporting services.  We architected and developed the mobile RFID / GPRS communication system for ArcelorMittal in coorporation with Synctrace.com as a solution supplier.   The AM-RFID system has been in place since mid 2012.  Due to the nature of the game, lives depend on the working of this system.  Together with hardware suppliers and inhouse software development we created a system that is able to service 24/7.   The Arcelormittal RFID system is unique in the sense that each system needs to work under extreme conditions where no GPS/GPRS signal can exist.  It has to store the driver license database in every tracking unit and acts as a digital engine key.   This is one our trademark projects.  Not only is this a highly demanding environment,  there is little room for error.
+But the reason this is our trademark is because we are experienced in thinking about every possible scenario.  We think ahead and compensate for future issues by getting (a lot) right from the start.  From electrical failure to storage planning or resource planning in general.  High availability.   Tuning.  And glueing things with our custom software.</p>
+
+<p>Not only do we work on the technical implementation.  We also bring ArcelorMittal to the map,  we completed Openstreetmaps data with a detailed micromap of entrances/exists.  For an organisation like AM knowing the closest door number to a certain device turned out to be crucial.  We love bringing creative solutions to the table.</p>
+
+<p><img src="/images/am_map_big.png" alt="ArcelorMittal" /></p>
+
+<h2 id="tapcrowd">Tapcrowd</h2>
+
+<h3 id="who-do-they-do">Who do they do</h3>
+
+<p>Vertalen?</p>
+
+<p>Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.</p>
+
+<h3 id="what-did-we-do-for-them">What did we do for them?</h3>
+
+<p>Glenneke dit is voor uâ€¦</p>
+
+<h2 id="oxynade">Oxynade</h2>
+
+<p><img src="/images/oxynade.png" alt="Oxynade" /></p>
+
+<p>Vertalen?</p>
+
+<p>Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.</p>
+
+<h2 id="syntrace">Syntrace</h2>
+
+<p><img src="/images/syntrace.png" alt="SynTrace" /></p>
+
+<p>Op zoek naar inspirerende Track &amp; Trace oplossingen 
+Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br />
+Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
+SyncTrace.<br />
+Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
+
+      </div>
+    </div>
+    <!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('1368-560-10-2238');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1368-560-10-2238/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+  </body>
+</html>
+;T;	I"„
+#Projecten
+
+## Arcelormittal
+
+![ArcelorMittal](/images/arcelormittal.jpg)
+
+On the Arcelor mittal project we acted as a technical lead and core architect, designer, and implementation force.  We still provide them continued supporting services.  We architected and developed the mobile RFID / GPRS communication system for ArcelorMittal in coorporation with Synctrace.com as a solution supplier.   The AM-RFID system has been in place since mid 2012.  Due to the nature of the game, lives depend on the working of this system.  Together with hardware suppliers and inhouse software development we created a system that is able to service 24/7.   The Arcelormittal RFID system is unique in the sense that each system needs to work under extreme conditions where no GPS/GPRS signal can exist.  It has to store the driver license database in every tracking unit and acts as a digital engine key.   This is one our trademark projects.  Not only is this a highly demanding environment,  there is little room for error.
+But the reason this is our trademark is because we are experienced in thinking about every possible scenario.  We think ahead and compensate for future issues by getting (a lot) right from the start.  From electrical failure to storage planning or resource planning in general.  High availability.   Tuning.  And glueing things with our custom software.
+
+Not only do we work on the technical implementation.  We also bring ArcelorMittal to the map,  we completed Openstreetmaps data with a detailed micromap of entrances/exists.  For an organisation like AM knowing the closest door number to a certain device turned out to be crucial.  We love bringing creative solutions to the table.
+
+![ArcelorMittal](/images/am_map_big.png)
+
+## Tapcrowd
+
+### Who do they do
+
+Vertalen?
+
+
+Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.
+
+### What did we do for them?
+
+Glenneke dit is voor u...
+
+## Oxynade
+
+![Oxynade](/images/oxynade.png)
+
+Vertalen?
+
+Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.
+
+## Syntrace
+
+![SynTrace](/images/syntrace.png)
+
+Op zoek naar inspirerende Track & Trace oplossingen 
+Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres  
+Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
+SyncTrace.  
+Totaaloplossingen voor buitendienst & software activiteiten;T;
+I"Î<h1 id="projecten">Projecten</h1>
+
+<h2 id="arcelormittal">Arcelormittal</h2>
+
+<p><img src="/images/arcelormittal.jpg" alt="ArcelorMittal" /></p>
+
+<p>On the Arcelor mittal project we acted as a technical lead and core architect, designer, and implementation force.  We still provide them continued supporting services.  We architected and developed the mobile RFID / GPRS communication system for ArcelorMittal in coorporation with Synctrace.com as a solution supplier.   The AM-RFID system has been in place since mid 2012.  Due to the nature of the game, lives depend on the working of this system.  Together with hardware suppliers and inhouse software development we created a system that is able to service 24/7.   The Arcelormittal RFID system is unique in the sense that each system needs to work under extreme conditions where no GPS/GPRS signal can exist.  It has to store the driver license database in every tracking unit and acts as a digital engine key.   This is one our trademark projects.  Not only is this a highly demanding environment,  there is little room for error.
+But the reason this is our trademark is because we are experienced in thinking about every possible scenario.  We think ahead and compensate for future issues by getting (a lot) right from the start.  From electrical failure to storage planning or resource planning in general.  High availability.   Tuning.  And glueing things with our custom software.</p>
+
+<p>Not only do we work on the technical implementation.  We also bring ArcelorMittal to the map,  we completed Openstreetmaps data with a detailed micromap of entrances/exists.  For an organisation like AM knowing the closest door number to a certain device turned out to be crucial.  We love bringing creative solutions to the table.</p>
+
+<p><img src="/images/am_map_big.png" alt="ArcelorMittal" /></p>
+
+<h2 id="tapcrowd">Tapcrowd</h2>
+
+<h3 id="who-do-they-do">Who do they do</h3>
+
+<p>Vertalen?</p>
+
+<p>Mobile devices are a huge part of every day life. Companies need to deploy a mobile strategy to reach the always-connected consumer. TapCrowd helps companies, organizations, retailers, brands and events to connect with their audience through mobile apps and mobile campaigns.</p>
+
+<h3 id="what-did-we-do-for-them">What did we do for them?</h3>
+
+<p>Glenneke dit is voor uâ€¦</p>
+
+<h2 id="oxynade">Oxynade</h2>
+
+<p><img src="/images/oxynade.png" alt="Oxynade" /></p>
+
+<p>Vertalen?</p>
+
+<p>Oxynade is the company behind the world-class ticketing platform MyUpcoming and serves thousands of customers in the event industry across Europe, through various brands and partners.</p>
+
+<h2 id="syntrace">Syntrace</h2>
+
+<p><img src="/images/syntrace.png" alt="SynTrace" /></p>
+
+<p>Op zoek naar inspirerende Track &amp; Trace oplossingen 
+Voor Inspiratie en  innoverende ideeÃ«n bent u bij ons aan het juiste adres<br />
+Aanvullend leveren wij  ICT en of softwarediensten voor uw IT team of bedrijf
+SyncTrace.<br />
+Totaaloplossingen voor buitendienst &amp; software activiteiten</p>
+;T;@AI"/images/Arcelormittal/;T{;{ I"/images/arcelormittal/;T{;{ I"/images/am_map_big/;T{;{ :versioni
