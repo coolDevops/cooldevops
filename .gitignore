@@ -1,4 +1,5 @@
 crash.log
 tmp
+tmp/*
 .bundle
 output
