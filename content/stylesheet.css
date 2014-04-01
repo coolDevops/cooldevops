@@ -4,8 +4,8 @@
 
 body {
    font-family: 'Open Sans Condensed', sans-serif !important;
-   font-size: 14pt;
-   line-height: 1.75em;
+   font-size: 15pt !important;
+   line-height: 1.75em !important;
 }
 
 h1,h2,h3,h4
@@ -16,9 +16,9 @@ h1,h2,h3,h4
 
 h2, h3
 {
-   font-size: 1.6em;
-   letter-spacing: -1px;
-   margin: 0 0 0.75em 0;
+   font-size: 1.8em !important;
+   letter-spacing: -1px !important;
+   margin: 0 0 0.75em 0 !important;
 }
 
 strong
@@ -29,7 +29,7 @@ strong
 a
 {
    color: #478903;
-   text-decoration: underline;
+   text-decoration: underline !important;
 }
 
 a:hover
