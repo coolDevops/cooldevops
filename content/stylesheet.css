@@ -1,5 +1,7 @@
 /* First set the navbar */
 
+*,*:before,*:after{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-o-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box}
+
 body {
    font-family: 'Open Sans Condensed', sans-serif;
    font-size: 14pt;
