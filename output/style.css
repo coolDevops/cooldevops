@@ -1,5 +1,8 @@
 html {
-  font: 62.5%/1.65 "Open Sans",sans-serif;
+  color: #000000;
+  font: 1.9em Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  /* font: 62.5%/1.65 "Open Sans",sans-serif; */
 }
 
 /* First set the navbar */
