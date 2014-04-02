@@ -2,35 +2,10 @@
 
 *,*:before,*:after{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-o-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box}
 
-/*
-body {
-   font-family: 'Open Sans Condensed', sans-serif !important;
-   font-size: 15pt !important;
-   line-height: 1.75em !important;
-}
-
-h1,h2,h3,h4
-{
-   font-family: 'Open Sans Condensed', sans-serif !important;
-   color: #1d1d1d;
-}
-
-h2, h3
-{
-   font-size: 1.8em !important;
-   letter-spacing: -1px !important;
-   margin: 0 0 0.75em 0 !important;
-}
-
-strong
-{
-   color: #1d1d1d;
-}
-
 a
 {
    color: #478903;
-   text-decoration: underline !important;
+   text-decoration: none;
 }
 
 a:hover
@@ -42,7 +17,6 @@ a:hover
   float: right;
   margin: 0 0 0 0;
 }
-*/
 
 .nav li {
   font-size: 14px;
