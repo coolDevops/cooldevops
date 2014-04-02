@@ -7,7 +7,7 @@ gem 'adsf', '~> 1.2.0'
 gem 'kramdown', '~> 1.3.3'
 
 gem 'systemu'
-
+gem 'therubyracer'
 gem 'bundler'
 gem 'rack'
 gem 'rack-rewrite'
@@ -22,7 +22,7 @@ gem 'builder'
 gem 'i18n'
 gem 'rake'
 gem 'fssm'
-
+gem 'rainpress'
  
 group :development, :test do
   gem 'pry'

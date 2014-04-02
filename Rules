@@ -13,14 +13,33 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-# Nothing special to do with images
-# Just copy it to public directory
+#
+## COMPILATION
+#
+
 compile '/images/*/' do
 end
 
 compile '/stylesheet/' do
   # don’t filter or layout
 end
+
+compile '/assets/bootstrap/bootstrap' do
+    filter :less
+    filter :rainpress
+end
+
+route '/assets/bootstrap/bootstrap' do
+  item.identifier.chop + '.css'
+end
+
+## hack:
+##       Bootstrap.less already processed and routed
+##       But don't want to use the other less files :)
+
+route '/assets/bootstrap/*/' do
+end
+
 
 compile '*' do
   if item.binary?
@@ -32,13 +51,13 @@ compile '*' do
   end
 end
 
-# Add some routes for assets, ensure good extension
-# is used by Nanoc since it tries to generate HTML
-# by default
+#
+## ROUTES
+#
+
 route '/images/*/' do
   item.identifier.chop + '.' + item[:extension]
 end
-
 
 route '/stylesheet/' do
   '/style.css'
@@ -53,5 +72,9 @@ route '*' do
     item.identifier + 'index.html'
   end
 end
+
+#
+## LAYOUT
+#
 
 layout '*', :erb
