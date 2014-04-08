@@ -2,6 +2,13 @@
 
 *,*:before,*:after{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-o-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box}
 
+
+img.profile {
+  width:180px;
+  height:auto;
+    border-radius: 50px;
+}
+
 a
 {
    color: #478903;
