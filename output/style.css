@@ -20,6 +20,30 @@ a:hover
    text-decoration: none;
 }
 
+.meta {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  float: left;
+}
+.meta a {
+  font-size: 50px;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.15s ease-in;
+  -webkit-transition: color 0.15s ease-in;
+}
+.meta a:hover {
+  color: #307EA9;
+  text-decoration: none;
+}
+.meta .block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
 .navbar ul {
   float: right;
   margin: 0 0 0 0;

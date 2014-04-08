@@ -17,6 +17,9 @@
 ## COMPILATION
 #
 
+compile '/webfonts/*' do
+end
+
 compile '/images/*/' do
 end
 
@@ -28,6 +31,9 @@ compile '/assets/bootstrap/bootstrap' do
     filter :less
     filter :rainpress
 end
+
+
+passthrough '/webfonts/*'
 
 route '/assets/bootstrap/bootstrap' do
   item.identifier.chop + '.css'
