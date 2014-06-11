@@ -123,7 +123,9 @@ a.brand:hover {
   background-color: #d9d9d4;
 }
 
-
+h2#clients {
+  text-align: center;
+}
 /* Footer */
 
 .site-footer {
