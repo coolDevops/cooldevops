@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bitless - <%= @item[:title] %></title>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap via CDN -->
+    <link href="/assets/bootstrap/bootstrap.css" rel="stylesheet">
+
+    <!-- Icons  -->
+    <link rel="stylesheet" type="text/css" href="/webfonts/ss-social-circle.css" />
+
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+  </head>
+
+  <%= render '/partials/piwik'%>
+
+  <body>
+
+      <div class="nav navbar">
+        <div class="container">
+        <a href="/" class="brand">cool<b>DEVOPS</b></a>
+          <ul class="list-inline">
+            <li><a href="/specialisaties/">Specialisaties</a></li>
+            <li><a href="/projecten/">Projecten</a></li>
+            <li><a href="/team/">Coreteam</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+<header class="site-head" style="background-image: url(/images/<%= @item[:headimage] %>.png)"></header>
