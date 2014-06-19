@@ -1,11 +1,18 @@
 <%= render '/partials/header'%>
 
-<header class="site-head" style="background-image: url(/images/<%= @item[:headimage] %>.png)"></header>
+<header class="site-head" style="background-image: url(/images/<%= @item[:headimage] %>.png)">
+	<% if @item[:title].eql?('System Admins As a Service') %>
+	<div class="container">
+		<div class="row">
+			<div class="span12 text-center">			
+					<p>DevOps As a Service </p>
+					<p>Full stack specialsts / Pay as you go</p>
+			</div>
+		</div>
+	</div>
+	<% end %>
+</header>
 
-    <div class="container">
-      <div class="span12">
         <%= yield %>
-      </div>
-    </div>
-
+   
 <%= render '/partials/footer'%>

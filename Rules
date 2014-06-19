@@ -50,13 +50,13 @@ end
 compile '*' do
   if item.binary?
     # don’t filter binary items
-  elsif item[:layout] == 'frontpage'
+  elsif item[:layout] == 'html'
     filter :erb
-    layout 'frontpage'
+    layout 'default'
   else
     filter :erb
     filter :kramdown
-    layout item[:layout] || 'default'
+    layout item[:layout] || 'markdown'
   end
 end
 

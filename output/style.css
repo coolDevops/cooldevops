@@ -28,6 +28,7 @@ img.profile {
 span.icons  {
   color: #80bdf2;
   vertical-align: middle;
+  display: inline-block;
 }
 
 
