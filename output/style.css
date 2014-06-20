@@ -25,10 +25,21 @@ img.profile {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-span.icons  {
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, 
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-size: 50px !important;
+
+}
+
+.special {
+  margin-left: 20px;
+}
+
+.icons  {
   color: #80bdf2;
   margin-right: 15px;
-    height: 50px;
+  height: 44px;
+  line-height: 44px;
 
 }
 
