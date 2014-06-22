@@ -4,20 +4,23 @@ headimage: full_stack_blur
 layout: html
 ---
 <div class="container">
-	<div class="row">
-    <h1 id="clients">Why work with us</h2>
+	<div class="row front">
+    <h1 id="clients">Why work with us</h1>
     <div class="col-md-4">
-      <h2><span class="icons flaticon-small60"></span>Improve your productivity</h2>
+      <span class="flaticon-small60"></span>
+      <h3>Improve your productivity</h3>
         Let your developers develop. We are there to handle all the other things that get in the way of delivering your product.
     </div>
 
     <div class="col-md-4">
-      <h2><span class="icons flaticon-small60"></span>Fast deploys</h2>
+      <span class="flaticon-small60"></span>
+      <h3>Fast deploys</h3>
         We automate everythingto decrease time between your releases. Let ship it! But we also make sure that the quality of your product doesn't suffer.
     </div>
 
     <div class="col-md-4">
-      <h2><span class="icons flaticon-small60"></span>Agile infrastructure</h2>
+      <span class="flaticon-small60"></span>
+      <h3>Agile infrastructure</h3>
         As you get more succesful and have more traffic we can easily scale up.
     </div>
 
@@ -100,7 +103,12 @@ layout: html
 
 <div class="container">
   <div class="span12">
-    <h1>Wie zijn wij</h1>
-    Glenn & Geert
+    <h1>Contact us</h1>
+    <form action="/contact" method="post" class="front">
+      <input id="email" placeholder="Your email address" type="text">
+      <textarea id="body" placeholder="How can we help you?"></textarea>
+      <input class="btn btn-primary btn-lg" type="submit" value="submit your message">
+    </form>
+
   </div> <!-- close div=span12 -->
 </div> <!-- close div=container -->   

@@ -30,6 +30,9 @@ img.profile {
   font-size: 50px !important;
 
 }
+.front {
+  text-align: center;
+}
 
 .special {
   margin-left: 20px;
