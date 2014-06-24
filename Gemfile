@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
  
-gem 'nanoc', '~> 3.6.8'
+gem 'nanoc', '~> 3.7.1'
 # install adsf
 gem 'adsf', '~> 1.2.0'
 # install kramdown -> markdown converter
