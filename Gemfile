@@ -23,6 +23,10 @@ gem 'i18n'
 gem 'rake'
 gem 'fssm'
 gem 'rainpress'
+
+# install blogging tools
+gem 'stringex'
+gem 'highline'
  
 group :development, :test do
   gem 'pry'

@@ -13,6 +13,24 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+
+#
+## Pre-Process
+#
+
+preprocess do
+  for tag in all_tags
+    @items << Nanoc::Item.new("", {:title => tag.capitalize, :tag => tag, :layout => "tag", :extension => 'html'}, "/blog/tags/#{tag.to_url}/")
+  end
+
+  for date in get_timeline
+    @items << Nanoc::Item.new("", {:title => "Blog posts from #{date.year}", :menu_title => date.year, :year => date.year, :layout => "timeline", :extension => "html"}, "/blog/#{date.year}/")
+    @items << Nanoc::Item.new("", {:title => "Blog posts from #{Date::MONTHNAMES[date.month.to_i]} #{date.year}", :menu_title => Date::MONTHNAMES[date.month.to_i], :year => date.year, :month => date.month, :layout => "timeline", :extension => "html"}, "/blog/#{date.year}/#{'%02d' % date.month}/")
+  end
+end
+
+
+
 #
 ## COMPILATION
 #

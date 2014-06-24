@@ -1,0 +1,5 @@
+<ul>
+  <% for item in articles_with_tag(@item[:tag]) %>
+<%= render 'listitem', :item => item %>
+<% end %>
+</ul>
