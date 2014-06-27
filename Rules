@@ -100,8 +100,6 @@ route (%r!/blog/([0-9]+)!) do
 end
 
 route '/blog/tags/*' do
-  p "WTF"
-  p item
   layout item[:layout]
   item.identifier + 'index.html'
 end
