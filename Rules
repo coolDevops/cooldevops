@@ -22,11 +22,6 @@ preprocess do
   for tag in all_tags
     @items << Nanoc::Item.new("", {:title => tag.capitalize, :tag => tag, :layout => "tag", :extension => 'html'}, "/blog/tags/#{tag.to_url}/")
   end
-
-  for date in get_timeline
-    @items << Nanoc::Item.new("", {:title => "Blog posts from #{date.year}", :menu_title => date.year, :year => date.year, :layout => "timeline", :extension => "html"}, "/blog/#{date.year}/")
-    @items << Nanoc::Item.new("", {:title => "Blog posts from #{Date::MONTHNAMES[date.month.to_i]} #{date.year}", :menu_title => Date::MONTHNAMES[date.month.to_i], :year => date.year, :month => date.month, :layout => "timeline", :extension => "html"}, "/blog/#{date.year}/#{'%02d' % date.month}/")
-  end
 end
 
 
@@ -93,15 +88,22 @@ route '/stylesheet/' do
   '/style.css'
 end
 
-route '/blog/*' do
+# NOT using the pre-processor (tags/timeline)
+route (%r!/blog/([0-9]+)!) do
   if %r!([0-9]+)/([0-9]+)/(.*)!.match(item.identifier)
     y    = $1
     m    = $2
     slug = $3
 
     "/blog/#{y}/#{m}/#{slug}index.html"
-    p "/blog/#{y}/#{m}/#{slug}index.html"
   end
+end
+
+route '/blog/tags/*' do
+  p "WTF"
+  p item
+  layout item[:layout]
+  item.identifier + 'index.html'
 end
 
 route '*' do
@@ -113,6 +115,7 @@ route '*' do
     item.identifier + 'index.html'
   end
 end
+
 
 #
 ## LAYOUT
