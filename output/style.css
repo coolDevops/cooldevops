@@ -34,18 +34,6 @@ img.profile {
   text-align: center;
 }
 
-.special {
-  margin-left: 20px;
-}
-
-.icons  {
-  color: #80bdf2;
-  margin-right: 15px;
-  height: 44px;
-  line-height: 44px;
-
-}
-
 .big-form textarea {
   width: 65%;
   height: 200px;
@@ -68,6 +56,19 @@ img.profile {
   padding: 17px 22px;
   font-weight: 300;
 }
+
+.special {
+  margin-left: 20px;
+}
+
+.icons  {
+  color: #80bdf2;
+  margin-right: 15px;
+  height: 44px;
+  line-height: 44px;
+
+}
+
 
 h1 {
   font-size: 50px;
