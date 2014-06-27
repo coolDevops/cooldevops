@@ -46,6 +46,28 @@ img.profile {
 
 }
 
+.big-form textarea {
+  width: 65%;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  background: #f0f0f0;
+  border-radius:0;
+  margin-bottom: 20px;
+  padding: 17px 22px;
+  font-weight: 300;
+}
+
+.big-form input[type="text"] {
+  width: 65%;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  background: #f0f0f0;
+  border-radius:0;
+  margin-bottom: 20px;
+  padding: 17px 22px;
+  font-weight: 300;
+}
 
 h1 {
   font-size: 50px;
