@@ -1,0 +1,5 @@
+<ul>
+<% for item in articles_with_year_and_month(@item[:year], @item[:month]) %>
+  <%= render 'listitem', :item => item %>
+<% end %>
+</ul>

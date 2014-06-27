@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
  
-gem 'nanoc', '~> 3.6.8'
+gem 'nanoc', '~> 3.7.1'
 # install adsf
 gem 'adsf', '~> 1.2.0'
 # install kramdown -> markdown converter
@@ -23,6 +23,10 @@ gem 'i18n'
 gem 'rake'
 gem 'fssm'
 gem 'rainpress'
+
+# install blogging tools
+gem 'stringex'
+gem 'highline'
  
 group :development, :test do
   gem 'pry'

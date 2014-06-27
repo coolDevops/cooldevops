@@ -13,6 +13,19 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
+
+#
+## Pre-Process
+#
+
+preprocess do
+  for tag in all_tags
+    @items << Nanoc::Item.new("", {:title => tag.capitalize, :tag => tag, :layout => "tag", :extension => 'html'}, "/blog/tags/#{tag.to_url}/")
+  end
+end
+
+
+
 #
 ## COMPILATION
 #
@@ -46,6 +59,9 @@ end
 route '/assets/bootstrap/*/' do
 end
 
+compile '/blog/*' do
+  filter :kramdown
+end
 
 compile '*' do
   if item.binary?
@@ -72,6 +88,24 @@ route '/stylesheet/' do
   '/style.css'
 end
 
+# NOT using the pre-processor (tags/timeline)
+route (%r!/blog/([0-9]+)!) do
+  if %r!([0-9]+)/([0-9]+)/(.*)!.match(item.identifier)
+    y    = $1
+    m    = $2
+    slug = $3
+
+    "/blog/#{y}/#{m}/#{slug}index.html"
+  end
+end
+
+route '/blog/tags/*' do
+  p "WTF"
+  p item
+  layout item[:layout]
+  item.identifier + 'index.html'
+end
+
 route '*' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext
@@ -81,6 +115,7 @@ route '*' do
     item.identifier + 'index.html'
   end
 end
+
 
 #
 ## LAYOUT
