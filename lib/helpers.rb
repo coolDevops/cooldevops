@@ -20,3 +20,7 @@ end
 def articles_with_tag(tag)
   sorted_articles.select{|a| a[:tags].include?(tag) rescue false }
 end
+
+def listing_date(date)
+  return date.strftime("%d %b. %Y")
+end
