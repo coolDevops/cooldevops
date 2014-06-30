@@ -20,21 +20,27 @@ margin-left: 20px;
 .flaticon-display14:before {
 	content: "\e001";
 }
-.flaticon-microscope13:before {
+.flaticon-line18:before {
 	content: "\e002";
 }
-.flaticon-parameters:before {
+.flaticon-logistics5:before {
 	content: "\e003";
 }
-.flaticon-see:before {
+.flaticon-parameters:before {
 	content: "\e004";
 }
-.flaticon-settings3:before {
+.flaticon-see:before {
 	content: "\e005";
 }
-.flaticon-small60:before {
+.flaticon-settings3:before {
 	content: "\e006";
 }
-.flaticon-vynil:before {
+.flaticon-small60:before {
 	content: "\e007";
+}
+.flaticon-three60:before {
+	content: "\e008";
+}
+.flaticon-vynil:before {
+	content: "\e009";
 }

@@ -25,13 +25,37 @@ img.profile {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before, 
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-size: 50px !important;
 
 }
+
 .front {
   text-align: center;
+}
+
+.big-form textarea {
+  width: 65%;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  background: #f0f0f0;
+  border-radius:0;
+  margin-bottom: 20px;
+  padding: 17px 22px;
+  font-weight: 300;
+}
+
+.big-form input[type="text"] {
+  width: 65%;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  background: #f0f0f0;
+  border-radius:0;
+  margin-bottom: 20px;
+  padding: 17px 22px;
+  font-weight: 300;
 }
 
 .special {
@@ -134,7 +158,7 @@ a:hover
 .brand {
   float: left;
   font-size: 30px;
-  font-weight: normal; 
+  font-weight: normal;
   margin: 0 0 0 0;
 }
 
@@ -144,7 +168,7 @@ a:hover
 }
 
 .brand a {
-  color: #838B8B;  
+  color: #838B8B;
 }
 
 /* Override the bootstrap hover class */
@@ -166,7 +190,7 @@ a.brand:hover {
   text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8); }
 }
 
-/* Container : 
+/* Container :
 
   - Don't use full screen
   - Check for a few screen sizes and adjust
@@ -301,4 +325,3 @@ h2#clients {
     font-size: 1rem;
     margin-right: 0.2em;
 }
-
