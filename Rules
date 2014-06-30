@@ -59,10 +59,6 @@ end
 route '/assets/bootstrap/*/' do
 end
 
-compile '/blog/*' do
-  filter :kramdown
-end
-
 compile '*' do
   if item.binary?
     # don’t filter binary items
@@ -100,7 +96,6 @@ route (%r!/blog/([0-9]+)!) do
 end
 
 route '/blog/tags/*' do
-  layout item[:layout]
   item.identifier + 'index.html'
 end
 

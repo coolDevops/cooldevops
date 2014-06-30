@@ -28,8 +28,22 @@ img.profile {
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-size: 50px !important;
-
 }
+
+.postlistingcontainer {
+  width: 650 px
+}
+
+.postlisting li {
+  font-size: 28px;
+  list-style-type: none;
+  line-height: 160%;
+}
+
+.postlisting span {
+  float: right;
+}
+
 
 .front {
   text-align: center;

@@ -1,9 +1,10 @@
-include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::Blogging
 include Nanoc3::Helpers::Tagging
+include Nanoc3::Helpers::Rendering
+include Nanoc3::Helpers::LinkTo
 
 def get_date(item)
-  return DateTime.parse(item.identifier).to_time 
+  return DateTime.parse(item.identifier).to_time
 end
 
 def all_tags

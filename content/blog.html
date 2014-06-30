@@ -1,6 +1,14 @@
----
-title: Projecten
-headimage: skills
----
-
-# This is the blog :)
+<% sorted_articles.each do |post| %>
+<div class='container'>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <ul class='postlisting'>
+        <li>
+          <span><%= post[:created_at] %></span> <%= link_to post[:title], post.path %>
+        </li>
+      </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+<% end %>
