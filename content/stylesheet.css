@@ -236,6 +236,8 @@ a.brand:hover {
 
 .gray-bg {
   background-color: #d9d9d4;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 h2#clients {
