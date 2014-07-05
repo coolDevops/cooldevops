@@ -1,5 +1,14 @@
 # bitless
 
+## Asset pipeline
+
+```  
+npm install
+bower install
+grunt build
+grunt copy
+```
+
 ## Write in blogpost:
 ```
 nanoc new-blog -h

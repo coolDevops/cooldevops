@@ -30,8 +30,8 @@ end
 ## COMPILATION
 #
 
-compile '/webfonts/*' do
-end
+passthrough '/webfonts/*'
+passthrough '/assets/*'
 
 compile '/images/*/' do
 end
@@ -39,27 +39,15 @@ end
 compile '/stylesheet/' do
 end
 
-compile '/assets/javascript/*' do
+compile '/javascript/*'  do
 end
 
-compile '/assets/bootstrap/bootstrap' do
-    filter :less
-    filter :rainpress
-end
-
-
-passthrough '/webfonts/*'
-
-route '/assets/bootstrap/bootstrap' do
-  item.identifier.chop + '.css'
-end
 
 ## hack:
 ##       Bootstrap.less already processed and routed
 ##       But don't want to use the other less files :)
 
-route '/assets/bootstrap/*/' do
-end
+
 
 compile '*' do
   if item.binary?
@@ -86,7 +74,7 @@ route '/stylesheet/' do
   '/style.css'
 end
 
-route '/assets/javascript/*' do
+route '/javascript/*' do
   item.identifier.chop + '.' + item[:extension]
 end
 

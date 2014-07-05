@@ -1,0 +1,14 @@
+{
+  "name": "bitless",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gtheys/bitless",
+  "authors": [
+    "Geert Theys <geert.theys@gmail.com>"
+  ],
+  "description": "CoolDevOps website",
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1",
+    "holder": "http://imsky.github.io/holder/holder.js"
+  }
+}

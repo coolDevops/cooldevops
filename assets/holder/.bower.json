@@ -1,0 +1,12 @@
+{
+  "name": "holder",
+  "_cacheHeaders": {
+    "Last-Modified": "Wed, 12 Mar 2014 03:00:17 GMT",
+    "Content-Length": "20063",
+    "Content-Type": "application/javascript; charset=utf-8"
+  },
+  "main": "index.js",
+  "_source": "http://imsky.github.io/holder/holder.js",
+  "_target": "*",
+  "_originalSource": "http://imsky.github.io/holder/holder.js"
+}
