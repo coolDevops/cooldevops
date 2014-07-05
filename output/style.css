@@ -252,6 +252,10 @@ h2#clients {
     margin-top: 0;
 }
 
+.carousel-inner {
+  padding: 25px 25px 25px 25px;
+}
+
 .testimonial {
     padding: 40px;
     line-height: 170%;
