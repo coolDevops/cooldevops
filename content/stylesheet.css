@@ -6,6 +6,20 @@
   -ms-box-sizing:content-box;
   box-sizing:content-box
 }
+
+html, body {
+  height: 100%;
+}
+
+#holder{
+    min-height: 100%;
+    position:relative;
+}
+
+#body{
+    padding-bottom: 100px;    /* height of footer */
+}
+
 body {
   font-size: 17px !important;
   line-height: 1.5 !important;
@@ -306,11 +320,16 @@ h2#clients {
   color: #666;
 }
 /* Footer */
+
+.inner {
+  margin-top: 20px;
+}
  .site-footer {
-  position: relative;
+  height: 100px;
+  position: absolute;
+  width: 100%;
   bottom: 0;
-  margin: 8rem 0 0 0;
-  padding: 4rem 0;
+  left: 0;
   border-top: 2px solid #ccc;
   font-family:'Open Sans', sans-serif;
   font-size: 1.3rem;
