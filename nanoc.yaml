@@ -4,6 +4,10 @@ deploy:
     kind: rsync
     dst: "git@dev.bitless.be:/var/www/dev"
     options: ["-avz", "--group=devs", "--delete", "-e ssh"]
+  production:
+    kind: rsync
+    dst: "git@dev.bitless.be:/var/www/cooldevops"
+    options: ["-avz", "--group=devs", "--delete", "-e ssh"]
 
 # A list of file extensions that nanoc will consider to be textual rather than
 # binary. If an item with an extension not in this list is found,  the file
