@@ -8,8 +8,8 @@
   "description": "CoolDevOps website",
   "dependencies": {
     "bootstrap": "~3.2.0",
-    "jquery": "~2.1.1",
-  }
+    "jquery": "~2.1.1"
+  },
     "devDependencies": {
       "grunt-html-validation": "~0.1.6",
       "grunt": "~0.4.1",
