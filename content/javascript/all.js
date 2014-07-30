@@ -1,15 +1,17 @@
-// Carousel functionality
+// Carousel functionality 
 $('#myCarousel').carousel();
+
 
 // Contact form submission
 $(document).ready(function() {
 
-    $('#contactForm').submit(function() {
-
+    jQuery("#clickme").click( function() {
+        $('body').css('cursor', 'wait');
+        var form=$('#contactForm');
         $.ajax({
             type: "POST",
-            url: "http://cooldevops_contact.dev/contact/",
-            data: $("#contactForm").serialize(),
+            url: "http://cooldevops_contact.dev/",
+            data: form.serialize(),
             dataType: "json",
 
             success: function(msg) {
@@ -25,5 +27,6 @@ $(document).ready(function() {
                 $("#formResponse").html("There was an error submitting the form. Please try again.");
             }
         });
-    });
+        $('body').css('cursor', 'default');
+   });
 });

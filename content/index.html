@@ -110,17 +110,15 @@ layout: html
   <div class="span12">
     <h1 class="front">Contact us</h1>
     <div id="formResponse"></div>
-    <form id="contactForm" name="contactForm" method="post" class="big-form front">
+    <form id="contactForm" name="contactForm" class="big-form front">
       <div class="row">
-        <input name="email" placeholder="Your email address" type="text">
+        <input id="mail" name="email" placeholder="Your email address" type="text">
       </div>
       <div class="row">
-        <textarea name="mailbody" placeholder="How can we help you?"></textarea>
+        <textarea id="msg" name="mailbody" placeholder="How can we help you?"></textarea>
       </div>
       <div class="row">
-        <input class="btn btn-primary btn-lg" type="submit" value="submit your message">
-      </div>
+        <input class="ui-button ui-state-default btn btn-primary btn-lg" type="button" name="lstdo" value="Spam us now!" id="clickme"/>
     </form>
-
   </div> <!-- close div=span12-->
 </div> <!-- close div=container -->
