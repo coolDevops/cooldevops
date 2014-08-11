@@ -367,3 +367,15 @@ h1#clients {
   font-size: 1rem;
   margin-right: 0.2em;
 }
+
+.mailchimp-form{border-top:5px solid #428bca;background:#fafafa;padding:1.25rem;border-radius:2px}
+.mailchimp-title{margin-bottom:.3em}
+.mailchimp-title+p{margin-bottom:1em}
+.mailchimp-disclaimer{font-size: 1.2rem;font-style:italic;margin:0}
+.mailchimp-field-group input,.mailchimp-submit-button{-webkit-appearance:none;outline:0}
+.mailchimp-field-group{position:relative}
+.mailchimp-field-group input{border:2px solid #e6ebeb;padding:.96875rem 1.5625rem;width:100%;border-radius:0}
+.mailchimp-field-group--first-name input{border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-width:0}
+.mailchimp-field-group--email input{border-bottom-left-radius:2px;border-bottom-right-radius:2px}
+.mailchimp-submit:after,.mailchimp-submit:before{content:" ";display:table;margin-top: 25px}
+.mailchimp-submit:after{clear:both}

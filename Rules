@@ -53,16 +53,13 @@ compile '*' do
   if item.binary?
     # don’t filter binary items
   elsif item[:layout] == 'html'
-    p "HTMl: #{item.inspect}"
     filter :erb
     layout 'default'
   elsif item[:layout] == 'blog'
-    p "BLOG: #{item.inspect}"
     filter :erb
     filter :kramdown
     layout item[:layout]
   else
-    p "OTHER: #{item.inspect}"
     filter :erb
     filter :kramdown
     layout item[:layout] || 'markdown'
