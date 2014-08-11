@@ -8,6 +8,7 @@ usage     'new-blog name [options]'
 option :d, :description,  'description for this blog post (ex. "This is a description")', :argument => :optional
 option :t, :tags,         'tags for this blog post (ex. "these,are,tags")', :argument => :optional
 option :c, :created_at,   'creation date for this blog post (ex. "2013-01-03 10:24")', :argument => :optional
+option :a, :author,       'add author to this blogpost', :argument => :optional
 
 flag   :h, :help,  'show help for this command' do |value, cmd|
   puts cmd.help
@@ -55,6 +56,7 @@ run do |opts, args, cmd|
     post.puts "created_at: #{timestamp}"
     post.puts "description: #{description}"
     post.puts "kind: article"
+    post.puts "author: #{author}"
     # post.puts "layout: blog"
     post.puts "tags: #{tags.inspect}"
     post.puts "---\n\n"
