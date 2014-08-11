@@ -1,12 +1,10 @@
-<!-- Markdown -->
+<!-- MARKDOWN -->
 <%= render '/partials/header'%>
 
 <header class="site-head" style="background-image: url(/images/<%= @item[:headimage] %>.png)"></header>
 
     <div class="container">
       <div class="span12">
-      <h2 class="blog_title"><%= @item[:title] %></h1>
-      <h3 class="blog_desc"><%= @item[:description] %></h2>
         <%= yield %>
       </div>
     </div>

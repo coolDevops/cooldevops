@@ -56,8 +56,8 @@ run do |opts, args, cmd|
     post.puts "created_at: #{timestamp}"
     post.puts "description: #{description}"
     post.puts "kind: article"
+    post.puts "layout: blog"
     post.puts "author: #{author}"
-    # post.puts "layout: blog"
     post.puts "tags: #{tags.inspect}"
     post.puts "---\n\n"
   end
