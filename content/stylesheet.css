@@ -97,7 +97,7 @@ h1 {
   margin: 0 0 3rem 0;
   letter-spacing: -.02em;
 }
-h1:after {
+h1::after {
   left: 0;
   right: 0;
   top: 100%;
@@ -224,7 +224,7 @@ a:hover {
   padding-bottom: 50px;
   padding-top: 15px;
 }
-h2#clients {
+h1#clients {
   text-align: center;
 }
 .testimonial-container {
