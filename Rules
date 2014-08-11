@@ -55,6 +55,10 @@ compile '*' do
   elsif item[:layout] == 'html'
     filter :erb
     layout 'default'
+  elsif item[:layout] == 'blog'
+    filter :erb
+    filter :kramdown
+    layout item[:layout]
   else
     filter :erb
     filter :kramdown

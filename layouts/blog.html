@@ -1,0 +1,42 @@
+<!-- Blog -->
+<%= render '/partials/header'%>
+
+<header class="site-head" style="background-image: url(/images/<%= @item[:headimage] %>.png)"></header>
+
+    <div class="container">
+      <div class="row">
+      	<div class="col-lg-2">
+      		<img class="profilesmall" src="/images/<%= @item[:author] %>.png">
+      	</div>
+      	<div class="col-lg-10">
+	      <h2 class="blog_title"><%= @item[:title] %></h2>
+	        <%= yield %>
+
+ <!-- Begin MailChimp Signup Form -->
+  <div id="mc_embed_signup" class="mailchimp">
+    <form action="//cooldevops.us8.list-manage.com/subscribe/post?u=baae334026c09c9ff7066f6fe&amp;id=391983f785" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailchimp-form" target="_blank" novalidate>
+      <h4 class="mailchimp-title">Subscribe</h4>
+      <p>Sign up to receive occasional email updates from us.</p>
+      <div class="mc-field-group mailchimp-field-group mailchimp-field-group--first-name">
+          <input type="text" value="" placeholder="First name" name="FNAME" class="" id="mce-FNAME">
+      </div>
+      <div class="mc-field-group mailchimp-field-group mailchimp-field-group--email">
+          <input type="email" value="" placeholder="Email address *" name="EMAIL" class="required email" id="mce-EMAIL">
+      </div>
+      <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_baae334026c09c9ff7066f6fe_391983f785" tabindex="-1" value=""></div>
+      <div class="clear mailchimp-submit"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button mailchimp-submit-button btn btn-primary btn-lg"></div>
+      <p class="mailchimp-disclaimer">You'll get an average of one email a month but never more than two&mdash;We won't spam you, we promise.</p>
+    </form>
+</div>
+
+<!--End mc_embed_signup-->
+	     </div>
+      </div>
+    </div>
+
+<%= render '/partials/footer'%>
