@@ -1,4 +1,10 @@
-# bitless
+# coolDEVOPS: Website
+
+Using:
+
+- Nanoc
+- Bower (bootstrap, jquery)
+- grunt.js
 
 ## Asset pipeline
 
