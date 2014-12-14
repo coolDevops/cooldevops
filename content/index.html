@@ -28,13 +28,16 @@ layout: html
 </div> <!-- close div=container -->
 
 <section class="gray-bg">
-<h1 id="clients">Testimonial</h1>
+<h1 id="clients">What our clients say</h1>
 <div class="container">
 	<div class="row">
 		<div class="col-md-8 col-sm-8 col-md-offset-2 .col-sm-offset-2">
-	
+			<div id="myCarousel" class="carousel slide">
 
-
+				<ol class="carousel-indicators">
+	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	        <li data-target="#myCarousel" data-slide-to="1"></li>
+	      </ol>
 
 				<div class="carousel-inner">
 		    <div class="item active">
@@ -43,6 +46,7 @@ layout: html
 							<img class="quote" src="/images/quote.svg" />
 							TapCrowd benefits from the on-demand services of coolDEVOPS to easily scale up and down in all our sys admin and operational needs. 
 							We are very satisfied with the expertise and pro-active way of working of coolDEVOPS !
+							<br /><br/>
 						</div>
 						<div class="testimonial-by">
 							<img class="arrow" src="/images/arrow.svg" />
@@ -54,14 +58,37 @@ layout: html
 						</div>
 					</div>
 				</div> <!-- div.item active -->
-				
+				<div class="item">
+		    	<div class="testimonial-container">
+	          <div class="testimonial">
+	          	<img class="quote" src="/images/quote.svg" />
+              SyncTrace we decided to collaborate with coolDEVOPS based on their experience and agility.
+              coolDEVOPS supports to keep our servers running and our databases up. They also provide 2nd line customers request.         
+              We found a strong partner in coolDEVOPS and we are sure you do too.
+	          </div>
+	          <div class="testimonial-by">
+        				<img class="arrow" src="/images/arrow.svg" />
+        				<span class="gravatar">
+          				<img src="/images/francis.jpg" />
+        				</span>
+        			<b>Francis Heselmans</b>
+        			<span><a href="http://syntrace.com">Syntrace</a></span>
+      			</div>
+  				</div>
+				</div>
+
 		   </div>
 
-
+						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		          <span class="icon-prev"></span>
+		        </a>
+		        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		          <span class="icon-next"></span>
+		        </a>
+			</div>
 		</div>
 	</div>
 </div>
-
 </section>
  
 <div class="container">
