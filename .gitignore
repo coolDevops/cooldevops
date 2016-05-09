@@ -4,3 +4,4 @@ tmp/*
 .bundle
 output
 contact/configuration.yml
+node_modules
