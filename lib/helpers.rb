@@ -1,7 +1,7 @@
-include Nanoc3::Helpers::Blogging
-include Nanoc3::Helpers::Tagging
-include Nanoc3::Helpers::Rendering
-include Nanoc3::Helpers::LinkTo
+include Nanoc::Helpers::Blogging
+include Nanoc::Helpers::Tagging
+include Nanoc::Helpers::Rendering
+include Nanoc::Helpers::LinkTo
 
 def get_date(item)
   return DateTime.parse(item.identifier).to_time
