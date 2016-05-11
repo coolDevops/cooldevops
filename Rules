@@ -17,10 +17,12 @@
 #
 ## Pre-Process
 #
+#
+require 'stringex'
 
 preprocess do
   for tag in all_tags
-    @items << Nanoc::Item.new("", {:title => tag.capitalize, :tag => tag, :layout => "tag", :extension => 'html'}, "/blog/tags/#{tag.to_url}/")
+    @items.create("", {:title => tag.capitalize, :tag => tag, :layout => "tag", :extension => 'html'}, "/blog/tags/#{tag.to_url}/")
   end
 end
 
